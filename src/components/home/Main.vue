@@ -38,8 +38,7 @@
 
     main {
         max-width: 1100px;
-        margin: 30px auto;
-        padding: 0 20px;
+        /*margin: 30px auto;*/
         width: 100%;
         display: grid;
         /* Define Auto Row size */

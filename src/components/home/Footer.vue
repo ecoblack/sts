@@ -19,21 +19,6 @@
                 <h3> (902) 452-7333</h3>
             </div>
         </div>
-
-        <div class="footer">
-            <div class="wrapper">
-                <!-- ZEIT SVG Logo created using only CSS3 techniques -->
-                <a href="https://zeit.co" target="_blank" rel="noopener">
-                    <div class="zeit-logo">
-                        <div class="triangle"></div>
-                        <div class="logo-text">ZEIT</div>
-                    </div>
-                </a>
-
-
-            </div>
-
-        </div>
     </div>
 </template>
 
@@ -86,6 +71,7 @@
         .columns {
             flex-flow: column wrap;
             margin: 0 0;
+            padding: 25px;
         }
     }
 

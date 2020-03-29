@@ -1,20 +1,16 @@
 <template>
     <div id="navigation">
-        <div class="outer-div">
-            <div class="inner-div">
-                <div id="nav">
-                    <div class="nav-left">
-                        <router-link to="/">Skip the Seed</router-link>
-                    </div>
-                    <div>
+        <div id="nav">
+            <div class="nav-left">
+                <router-link to="/">Skip the Seed</router-link>
+            </div>
+            <div>
 
-                    </div>
-                    <div class="nav-right">
-                        <router-link to="/">Benefits</router-link>
-                        <router-link to="/">Contact Us</router-link>
-                        <router-link to="/about">About</router-link>
-                    </div>
-                </div>
+            </div>
+            <div class="nav-right">
+                <router-link to="/">Benefits</router-link>
+                <router-link to="/">Contact Us</router-link>
+                <router-link to="/about">About</router-link>
             </div>
         </div>
         <router-view/>
@@ -36,16 +32,16 @@
     }
 
     h1 {
-      font-size: 48px;
+        font-size: 48px;
     }
 
     a {
         color: #333;
-      font-size: 16px;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
+        font-size: 16px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
     }
     a:visited {
         color: #333;
@@ -63,15 +59,6 @@
 
     a:hover {
         color: #006a15;
-    }
-
-    .outer-div {
-    }
-
-    .inner-div {
-        margin: 0 auto;
-        max-width: 1100px;
-        height: 100px;
     }
 
     .nav-left {
@@ -99,6 +86,7 @@
 
     #nav {
 
+        height: 30px;
         padding: 35px;
         a {
             margin-top: 25px;

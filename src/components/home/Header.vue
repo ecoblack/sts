@@ -26,7 +26,6 @@
         background-image: url(../../assets/group-13@2x.png);
         background-position: center center;
         background-size: cover;
-        background-attachment: fixed;
         background-repeat: no-repeat;
         text-align: center;
         /*width: 100%;*/
@@ -38,12 +37,13 @@
         margin: 0 auto;
         max-width: 100%;
         /*max-width: 1100px;*/
-        height: 500px;
+        min-height: 600px;
         background-color: #ccc;
         border-radius: 3px;
+        position: relative;
     }
     button {
-        width: 360px;
+        max-width: 360px;
         height: 60px;
         border-radius: 32.5px;
         background-color: #ffffff;
@@ -59,16 +59,14 @@
     }
     .header-text {
         position: absolute;
-        left: 50%;
-        top: 40%;
-        transform: translate(-50%, -50%);
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
         /*flex: 0 0 120px;*/
         /*width: 50%;*/
         /*height: 190px;*/
         color:white;
         /*width: 100%;*/
         /*height: 100%;*/
-        position: absolute;
         /*top: 0;*/
         /*left: 0;*/
 

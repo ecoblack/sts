@@ -44,7 +44,7 @@
         }
     }
     button {
-        width: 360px;
+        max-width: 360px;
         height: 60px;
         border-radius: 32.5px;
         background-color: #ffffff;

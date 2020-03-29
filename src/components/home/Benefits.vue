@@ -71,7 +71,7 @@
     .inner-div {
         margin: 0 auto;
         max-width: 1100px;
-        height: 100px;
+        height: 80px;
     }
 
     /*.benefits {*/
@@ -93,14 +93,12 @@
     /*}*/
     main {
         max-width: 1100px;
-        margin: 30px auto;
-        padding: 0 20px;
         width: 100%;
         display: grid;
         /* Define Auto Row size */
         /*grid-auto-rows: 800px;*/
         /*Define our columns */
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
         grid-gap: 1em;
 
         p {
