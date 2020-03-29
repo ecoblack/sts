@@ -1,13 +1,13 @@
 <template>
-    <div class="header">
-        <img id="main-header" alt="header" src="../../assets/group-13@2x.png">
-        <div class="header-text">
-            <h1>Are you still trimming your weed by hand?</h1>
-            <h4>Call us now and get professional and sanitary trimming!</h4>
-            <button>
-                <a><router-link to="/">Get professional trimming</router-link></a>
-            </button>
-        </div>
+    <div class="lower-header">
+        <img id="lower-header-image" alt="header" src="../../assets/group-2@3x.png">
+<!--        <div class="header-text">-->
+<!--            <h1>Are you still trimming your weed by hand?</h1>-->
+<!--            <h4>Call us now and get professional and sanitary trimming!</h4>-->
+<!--            <button>-->
+<!--                <a><router-link to="/">Get professional trimming</router-link></a>-->
+<!--            </button>-->
+<!--        </div>-->
     </div>
 </template>
 
@@ -15,13 +15,15 @@
     // @ is an alias to /src
 
     export default {
-        name: 'Header',
+        name: 'LowerHeader',
     }
 </script>
 
 <style scoped lang="scss">
 
-    .header {
+    .lower-header {
+        text-align: center;
+        margin-top: 115px;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -34,6 +36,12 @@
         /*display: flex;*/
         /*justify-content: center;*/
         /*align-items: center;*/
+        img {
+            width: 100%;
+            max-width: 1100px;
+            /*padding-left: 400px;*/
+            /*padding-right: 400px;*/
+        }
     }
     button {
         width: 360px;
@@ -51,6 +59,7 @@
         letter-spacing: normal
     }
     .header-text {
+        text-align: center;
         /*flex: 0 0 120px;*/
         width: 80%;
         height: 190px;
