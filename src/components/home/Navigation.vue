@@ -27,7 +27,6 @@
     /* General style  */
     body {
         margin: 0;
-        max-width: 1900px;
         min-height: 325px;
     }
 
@@ -36,16 +35,13 @@
     }
 
     a {
-        color: #333;
         font-size: 16px;
         font-stretch: normal;
         font-style: normal;
         line-height: normal;
         letter-spacing: normal;
     }
-    a:visited {
-        color: #333;
-    }
+
     a:link {
         text-decoration: none;
         border-radius: 0;
@@ -53,7 +49,6 @@
         font-weight: 400;
         letter-spacing: 0em;
         line-height: 1.4;
-        margin: 0px 0px 0px 20px;
         opacity: 1;
     }
 

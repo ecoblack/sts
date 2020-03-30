@@ -14,9 +14,9 @@
             </div>
 
             <div class="column" style="text-align: right">
-                <h3> sales@skiptheseed.com</h3>
-                <h3> (902) 452-SEED</h3>
-                <h3> (902) 452-7333</h3>
+               <a color="black" :href="`mailto:${email}`"><h3>sales@skiptheseed.com</h3></a>
+                <a color="black" :href="`tel:${phoneFirst}`"><h3>(902) 452-SEED</h3></a>
+                <a color="black" :href="`tel:${phoneSecond}`"><h3>(902) 452-7333</h3></a>
             </div>
         </div>
     </div>
@@ -27,6 +27,13 @@
 
     export default {
         name: 'Footer',
+        data: function() {
+            return {
+                email: 'sales@skiptheseed.com',
+                phoneFirst: '(902) 452-SEED',
+                phoneSecond: '(902) 452-7333',
+            };
+        }
     }
 </script>
 
@@ -34,7 +41,6 @@
     body {
         background-color: black;
         color: white;
-
         font-family: monospace, sans-serif;
     }
 
@@ -75,29 +81,6 @@
         }
     }
 
-    .zeit-logo {
-        color: white;
-        display: block;
-
-        margin-right: 20px;
-    }
-
-    .zeit-logo .triangle {
-        display: inline-block;
-        vertical-align: baseline;
-
-        width: 0;
-        height: 0;
-
-        border-bottom: 23px solid white;
-        border-left: 23px solid transparent;
-        border-right: 23px solid transparent;
-    }
-
-    .zeit-logo .logo-text {
-        display: inline-block;
-        font-size: 26px;
-    }
     .column h3 {
         font-size: 28px;
         font-weight: normal;
@@ -105,7 +88,7 @@
         font-style: normal;
         line-height: normal;
         letter-spacing: normal;
-        text-align: center;
+        /*text-align: center;*/
     }
     .footer {
         font-size: 12px;
@@ -119,15 +102,6 @@
         display: flex;
         flex-flow: row;
         justify-content: space-between;
-    }
-
-    .footer a {
-        text-decoration: none;
-        transition: color 0.2s;
-    }
-
-    .footer a:hover {
-        color: #fff;
     }
 
     .footer .mini-nav {
@@ -147,48 +121,27 @@
         vertical-align: middle;
     }
 
-    .nav-link .icon svg {
-        fill: currentColor;
-    }
-
     .footer .right-nav .social-nav {
-        text-align: right;
-        margin: 10px 0px;
-        margin-bottom: 20px;
+        /*margin: 10px 0px;*/
+        /*margin-bottom: 20px;*/
     }
 
     .footer .right-nav .social-nav a {
         padding-right: 5px;
     }
 
-    .footer .right-nav .social-nav a:nth-last-of-type(n + 2) {
-        border-right: 1px solid #666;
-    }
-
     @media all and (max-width: 750px) {
         .footer .wrapper {
             flex-flow: column wrap;
-            align-items: center;
+            /*align-items: center;*/
         }
 
         .footer .mini-nav {
             display: flex;
         }
 
-        .footer .zeit-logo {
-            margin: 10px;
-        }
-
-        .footer .mini-nav {
-            margin: 15px auto;
-        }
-
-        .footer .mini-nav .mini-nav-item {
-            padding-right: 15px;
-        }
-
         .footer .right-nav .social-nav {
-            text-align: center;
+            /*text-align: center;*/
         }
     }
 

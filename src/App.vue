@@ -10,9 +10,10 @@
 
                     </div>
                     <div class="nav-right">
-                        <router-link to="/">Benefits</router-link>
-                        <router-link to="/">Contact Us</router-link>
-                        <router-link to="/about">About</router-link>
+                        <a @click="toBenefits">Benefits</a>
+                        <a @click="toHow">How we work </a>
+                        <a @click="contactUs">Contact us</a>
+
                     </div>
                 </div>
             </div>
@@ -21,7 +22,11 @@
     </div>
 </template>
 
+
 <style lang="scss">
+
+
+
     @media all and (max-width: 500px) {
         .nav-right {
             display: none;
@@ -31,7 +36,6 @@
     /* General style  */
     body {
         margin: 0;
-        max-width: 1900px;
         min-height: 325px;
     }
 
@@ -39,16 +43,15 @@
       font-size: 48px;
     }
 
+    a:visited {
+        color: black;
+    }
     a {
-        color: #333;
       font-size: 16px;
       font-stretch: normal;
       font-style: normal;
       line-height: normal;
       letter-spacing: normal;
-    }
-    a:visited {
-        color: #333;
     }
     a:link {
         text-decoration: none;
@@ -57,7 +60,6 @@
         font-weight: 400;
         letter-spacing: 0em;
         line-height: 1.4;
-        margin: 0px 0px 0px 20px;
         opacity: 1;
     }
 
@@ -71,7 +73,7 @@
     .inner-div {
         margin: 0 auto;
         max-width: 1100px;
-        height: 100px;
+        height: 80px;
     }
 
     .nav-left {
@@ -83,6 +85,14 @@
 
     .nav-right {
         float: right;
+        font-weight: 400;
+        letter-spacing: 0em;
+        line-height: 1.4;
+        margin: 0px 0px 0px 20px;
+        opacity: 1;
+        padding: 0 0 0 0;
+        text-align: center;
+        max-width: calc(100% - 20px);
         a {
             font-weight: normal;
         }
@@ -101,6 +111,7 @@
 
         padding: 35px;
         a {
+            margin-left: 20px;
             margin-top: 25px;
             /*color: #2c3e50;*/
             font-size: 20px;

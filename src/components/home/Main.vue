@@ -38,13 +38,14 @@
 
     main {
         max-width: 1100px;
-        /*margin: 30px auto;*/
+        margin: 30px auto;
+        padding: 0 20px;
         width: 100%;
         display: grid;
         /* Define Auto Row size */
         /*grid-auto-rows: 800px;*/
         /*Define our columns */
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         grid-gap: 1em;
 
         p {

@@ -49,6 +49,7 @@
         background-color: #ffffff;
     }
     button > a > a {
+        margin: -10px 20px -10px 20px;
         color: black;
         font-size: 20px;
         font-weight: bold;
@@ -65,7 +66,7 @@
         /*width: 50%;*/
         /*height: 190px;*/
         color:white;
-        /*width: 100%;*/
+        width: 100%;
         /*height: 100%;*/
         /*top: 0;*/
         /*left: 0;*/
@@ -77,5 +78,12 @@
         max-width: 1900px;
         max-height: 700px;
     }
+    button:hover {
+        background-color: #47c549;
+        border: none;
+    }
 
+    a:hover {
+        color: white;
+    }
 </style>
