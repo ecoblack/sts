@@ -109,4 +109,16 @@
         }
     }
 
+    @media all and (max-width: 767px) {
+        button {
+            width: 180px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+    }
+
+
 </style>

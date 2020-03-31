@@ -37,24 +37,24 @@
 
 <style lang="scss" scoped>
 
-    @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
-        main {
-            max-width: 2200px;
-            margin: 60px auto;
-            width: 100%;
-            display: grid;
-            /* Define Auto Row size */
-            /*grid-auto-rows: 800px;*/
-            /*Define our columns */
-            grid-template-columns: repeat(auto-fill, minmax(660px, 1fr));
-            grid-gap: 2em;
+    /*@media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {*/
+    /*    main {*/
+    /*        max-width: 2200px;*/
+    /*        margin: 60px auto;*/
+    /*        width: 100%;*/
+    /*        display: grid;*/
+    /*        !* Define Auto Row size *!*/
+    /*        !*grid-auto-rows: 800px;*!*/
+    /*        !*Define our columns *!*/
+    /*        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));*/
+    /*        grid-gap: 2em;*/
 
-            p {
-                color: black;
+    /*        p {*/
+    /*            color: black;*/
 
-            }
-        }
-    }
+    /*        }*/
+    /*    }*/
+    /*}*/
 
     * {
         box-sizing: border-box;
@@ -68,7 +68,7 @@
         /* Define Auto Row size */
         /*grid-auto-rows: 800px;*/
         /*Define our columns */
-        grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
         grid-gap: 1em;
 
         p {
@@ -101,19 +101,9 @@
         height: 15%;
     }
 
-    @media all and (min-width: 1000px) {
-        /*main {*/
-        /*    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));*/
-        /*}*/
-        article {
-            max-width: 100%;
-        }
-
-    }
-
-    @media all and (max-width: 768px) {
+    @media all and (min-width: 768px) {
         main {
-            grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
         }
         article {
             max-width: 100%;
@@ -121,6 +111,37 @@
 
     }
 
+    @media all and (max-width: 767px) {
+        main {
+            grid-template-columns: repeat(auto-fill, minmax(325px,1fr));
+            border-color: red;
+            border-style: solid;
+        }
+        article {
+            max-width: 100%;
+        }
+
+    }
+
+    @media all and (min-width: 325px) {
+        main {
+            grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
+        }
+        article {
+            max-width: 100%;
+        }
+
+    }
+
+    @media all and (min-width: 1000px) {
+        main {
+            grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+        }
+        article {
+            max-width: 100%;
+        }
+
+    }
 
     .inner-div {
         margin: 0 auto;

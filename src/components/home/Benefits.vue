@@ -108,8 +108,8 @@
     /*}*/
     main {
         max-width: 1100px;
-        margin: 30px auto;
-        padding: 0 20px;
+        /*margin: 30px auto;*/
+        /*padding: 0 20px;*/
         width: 100%;
         display: grid;
         /* Define Auto Row size */
@@ -148,6 +148,7 @@
     @media all and (min-width: 769px) {
         main {
             grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+            padding: 0 0;
         }
         article {
             max-width: 100%;
