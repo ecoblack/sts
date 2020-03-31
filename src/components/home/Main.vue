@@ -36,6 +36,26 @@
 </script>
 
 <style lang="scss" scoped>
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+        main {
+            max-width: 2200px;
+            margin: 60px auto;
+            width: 100%;
+            display: grid;
+            /* Define Auto Row size */
+            /*grid-auto-rows: 800px;*/
+            /*Define our columns */
+            grid-template-columns: repeat(auto-fill, minmax(660px, 1fr));
+            grid-gap: 2em;
+
+            p {
+                color: black;
+
+            }
+        }
+    }
+
     * {
         box-sizing: border-box;
     }
@@ -81,7 +101,17 @@
         height: 15%;
     }
 
-    @media all and (max-width: 1000px) {
+    @media all and (min-width: 1000px) {
+        /*main {*/
+        /*    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));*/
+        /*}*/
+        article {
+            max-width: 100%;
+        }
+
+    }
+
+    @media all and (max-width: 768px) {
         main {
             grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
         }
@@ -91,13 +121,12 @@
 
     }
 
+
     .inner-div {
         margin: 0 auto;
         max-width: 1100px;
         height: 80px;
         text-align: center;
-        transition: transform .4s;
-        transform: scale(1.2);
     }
 
     .inner-div:hover {

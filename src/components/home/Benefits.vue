@@ -3,7 +3,7 @@
         <div class="benefits-big-header">
             <div class="outer-div">
 
-                <h1 > We will do all the work for you</h1>
+                <h1> We will do all the work for you</h1>
             </div>
             <div class="outer-div">
                 <p> Let us get rid of your messy, time consuming, and unsanitary hand trimming! Our new professional
@@ -77,11 +77,11 @@
         height: 80px;
     }
 
-    .benefits-header, img {
+    img {
         transition: transform .4s;
     }
 
-    .benefits-header:hover, img:hover {
+    img:hover {
         transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
 
