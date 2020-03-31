@@ -115,7 +115,7 @@
         /* Define Auto Row size */
         /*grid-auto-rows: 800px;*/
         /*Define our columns */
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
         grid-gap: 1em;
 
         p {
@@ -146,6 +146,9 @@
     }
 
     @media all and (min-width: 769px) {
+        main {
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        }
         article {
             max-width: 100%;
         }
@@ -153,6 +156,8 @@
             width: 50%;
             max-width: 50%;
         }
+
+
     }
 
 

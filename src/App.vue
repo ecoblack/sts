@@ -24,9 +24,6 @@
 
 
 <style lang="scss">
-
-
-
     @media all and (max-width: 500px) {
         .nav-right {
             display: none;
@@ -46,6 +43,7 @@
     a:visited {
         color: black;
     }
+
     a {
       font-size: 16px;
       font-stretch: normal;
@@ -56,7 +54,7 @@
     a:link {
         text-decoration: none;
         border-radius: 0;
-        color: #333;
+        color: black;
         font-weight: 400;
         letter-spacing: 0em;
         line-height: 1.4;

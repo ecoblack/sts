@@ -23,7 +23,7 @@
 
     .lower-header {
         text-align: center;
-        margin: 115px 0 115px 0;
+        margin: 115px 0 50px 0;
         width: 100%;
         display: flex;
         flex-direction: row;

@@ -3,7 +3,7 @@
         <Header/>
         <LowerHeader/>
         <Benefits/>
-<!--        <Main/>-->
+        <Main/>
         <FooterImage/>
         <Footer/>
     </div>
@@ -33,7 +33,7 @@
     import Header from '@/components/home/Header.vue'
     import LowerHeader from '@/components/home/LowerHeader.vue'
     import Benefits from '@/components/home/Benefits.vue'
-    // import Main from '@/components/home/Main.vue'
+    import Main from '@/components/home/Main.vue'
     import Footer from '@/components/home/Footer.vue'
     import FooterImage from '@/components/home/FooterImage.vue'
 
@@ -43,7 +43,7 @@
             Header,
             LowerHeader,
             Benefits,
-            // Main,
+            Main,
             FooterImage,
             Footer
         }
