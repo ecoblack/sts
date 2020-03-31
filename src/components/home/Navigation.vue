@@ -20,10 +20,14 @@
 <style lang="scss">
     @media all and (max-width: 600px) {
         .nav-right {
-            display: none;
+            display: none!important;
         }
     }
-
+    @media all and (min-width: 601px) {
+        .nav-right {
+            display: block;
+        }
+    }
     /* General style  */
     body {
         margin: 0;
@@ -64,6 +68,7 @@
     }
 
     .nav-right {
+        display: block;
         float: right;
         a {
             font-weight: normal;

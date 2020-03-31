@@ -37,25 +37,6 @@
 
 <style lang="scss" scoped>
 
-    /*@media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {*/
-    /*    main {*/
-    /*        max-width: 2200px;*/
-    /*        margin: 60px auto;*/
-    /*        width: 100%;*/
-    /*        display: grid;*/
-    /*        !* Define Auto Row size *!*/
-    /*        !*grid-auto-rows: 800px;*!*/
-    /*        !*Define our columns *!*/
-    /*        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));*/
-    /*        grid-gap: 2em;*/
-
-    /*        p {*/
-    /*            color: black;*/
-
-    /*        }*/
-    /*    }*/
-    /*}*/
-
     * {
         box-sizing: border-box;
     }
@@ -68,7 +49,7 @@
         /* Define Auto Row size */
         /*grid-auto-rows: 800px;*/
         /*Define our columns */
-        grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         grid-gap: 1em;
 
         p {
@@ -103,7 +84,7 @@
 
     @media all and (min-width: 558px) {
         main {
-            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
         }
         article {
             max-width: 100%;
