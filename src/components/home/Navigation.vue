@@ -18,7 +18,7 @@
 </template>
 
 <style lang="scss">
-    @media all and (max-width: 500px) {
+    @media all and (max-width: 600px) {
         .nav-right {
             display: none;
         }

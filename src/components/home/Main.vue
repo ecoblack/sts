@@ -101,9 +101,9 @@
         height: 15%;
     }
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 558px) {
         main {
-            grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
         }
         article {
             max-width: 100%;
@@ -111,27 +111,17 @@
 
     }
 
-    @media all and (max-width: 767px) {
-        main {
-            grid-template-columns: repeat(auto-fill, minmax(325px,1fr));
-            border-color: red;
-            border-style: solid;
-        }
-        article {
-            max-width: 100%;
-        }
+    /*@media all and (max-width: 767px) {*/
+    /*    main {*/
+    /*        grid-template-columns: repeat(auto-fill, minmax(450px,1fr));*/
+    /*        !*border-color: red;*!*/
+    /*        !*border-style: solid;*!*/
+    /*    }*/
+    /*    article {*/
+    /*        max-width: 100%;*/
+    /*    }*/
 
-    }
-
-    @media all and (min-width: 325px) {
-        main {
-            grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
-        }
-        article {
-            max-width: 100%;
-        }
-
-    }
+    /*}*/
 
     @media all and (min-width: 1000px) {
         main {
@@ -150,7 +140,4 @@
         text-align: center;
     }
 
-    .inner-div:hover {
-        transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    }
 </style>

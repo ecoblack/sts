@@ -4,6 +4,7 @@
         <LowerHeader/>
         <Benefits/>
         <Main/>
+        <HigherFooterImage/>
         <FooterImage/>
         <Footer/>
     </div>
@@ -34,8 +35,9 @@
     import LowerHeader from '@/components/home/LowerHeader.vue'
     import Benefits from '@/components/home/Benefits.vue'
     import Main from '@/components/home/Main.vue'
-    import Footer from '@/components/home/Footer.vue'
+    import HigherFooterImage from '@/components/home/HigherFooterImage.vue'
     import FooterImage from '@/components/home/FooterImage.vue'
+    import Footer from '@/components/home/Footer.vue'
 
     export default {
         name: 'Home',
@@ -44,6 +46,7 @@
             LowerHeader,
             Benefits,
             Main,
+            HigherFooterImage,
             FooterImage,
             Footer
         }
