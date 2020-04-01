@@ -1,19 +1,19 @@
 <template>
     <div id="benefits">
         <div class="outer-div">
-<!--&lt;!&ndash;            <div class="inner-div">&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                <h1>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                    We will do all the work for you&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                </h1>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                <p>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                    Let us get rid of your messy, time consuming, and unsanitary hand trimming! Our new professional&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                    equipment will trim everything you've got faster and cleaner!&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                </p>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;            <div class="inner-div">&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                <h1>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                    We will do all the work for you&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                </h1>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                <p>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                    Let us get rid of your messy, time consuming, and unsanitary hand trimming! Our new professional&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                    equipment will trim everything you've got faster and cleaner!&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                </p>&ndash;&gt;&ndash;&gt;-->
 
-<!--&lt;!&ndash;&lt;!&ndash;                <h1>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                    We will do all the work for you&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                </h1>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                <h1>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                    We will do all the work for you&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;                </h1>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;            </div>&ndash;&gt;-->
             <h1 class="benefits-header"> Benefits of professional trimming</h1>
         </div>
         <!--        <div class="benefits-header">-->
@@ -76,6 +76,7 @@
     h1 {
         text-align: center;
     }
+
     * {
         box-sizing: border-box;
     }
@@ -93,12 +94,14 @@
         height: 80px;
     }
 
-    .benefits-header, img {
+    img {
         transition: transform .2s;
     }
-    .benefits-header:hover, img {
+
+    img {
         transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
+
     /*.benefits {*/
     /*    max-width: 1100px;*/
 
@@ -127,6 +130,7 @@
         /*Define our columns */
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 1em;
+
         p {
             color: black;
 
@@ -151,6 +155,7 @@
     img {
         max-width: 33%;
     }
+
     .inner-div {
         text-align: center;
         justify-content: center;

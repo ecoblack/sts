@@ -33,7 +33,6 @@
     body {
         margin: 0;
         min-height: 325px;
-        overflow: hidden;
     }
 
     h1 {
