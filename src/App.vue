@@ -10,10 +10,9 @@
 
                     </div>
                     <div class="nav-right">
-                        <a @click="toBenefits">Benefits</a>
-                        <a @click="toHow">How we work </a>
-                        <a @click="contactUs">Contact us</a>
-
+                        <router-link to="/#benefits">Benefits</router-link>
+                        <router-link to="/#how">How we work</router-link>
+                        <router-link to="/#contacts">Contact us</router-link>
                     </div>
                 </div>
             </div>
@@ -34,6 +33,7 @@
     body {
         margin: 0;
         min-height: 325px;
+        overflow: hidden;
     }
 
     h1 {

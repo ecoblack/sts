@@ -1,5 +1,5 @@
 <template>
-    <div class="footer">
+    <div id="contacts" class="footer">
 
         <div class="columns info">
             <div class="column">
@@ -8,9 +8,9 @@
             </div>
 
             <div class="column">
-                <h3>Benefits</h3>
-                <h3>How we work</h3>
-                <h3>Contact us</h3>
+                <router-link to="/#benefits"> <h3>Benefits</h3></router-link>
+                <router-link to="/#how"> <h3>How we work</h3></router-link>
+                <router-link to="/#contacts"> <h3>Contact Us</h3></router-link>
             </div>
 
             <div class="column" style="text-align: right">

@@ -1,5 +1,5 @@
 <template>
-    <div class="main">
+    <div id="how" class="main">
         <div class="outer-div">
             <h1 class="inner-div">How it works</h1>
         </div>
