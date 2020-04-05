@@ -99,7 +99,9 @@
         /*    border-style: solid;*/
         /*    border-color: blueviolet;*/
         /*}*/
-
+        .header {
+            display: none;
+        }
         .footer-text {
             color: white;
             position: absolute;

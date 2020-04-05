@@ -26,26 +26,34 @@
         <!--        </div>-->
         <main>
             <article>
-                <img alt="header" src="../../assets/ic-flower@2x.png">
+                <div class="img-border">
+                    <img alt="header" src="../../assets/flower.svg">
+                </div>
                 <h1>Clean</h1>
                 <p>We clean and sanitize our equipment after every job to ensure that the final trimmings will come out
                     without having touched a person's skin. This will prevent human oils and dirt from getting into the
                     weed. No more sticky hands!</p>
             </article>
             <article>
-                <img alt="header" src="../../assets/ic-clock@2x.png">
+                <div class="img-border">
+                    <img alt="header" src="../../assets/clock.svg">
+                </div>
                 <h1>Quick</h1>
                 <p>Our equipment will tumble and trim your buds before your eyes through tumbling.</p>
             </article>
             <article>
-                <img alt="header" src="../../assets/ic-sanitary@2x.png">
+                <div class="img-border">
+                    <img alt="header" src="../../assets/gel.svg">
+                </div>
                 <h1>Sanitary</h1>
                 <p>We clean and sanitize our equipment after every trimming to ensure that the final trimmings will come
                     out without having touched a person's skin, preventing human oils and dirt from getting to the
                     trimming. No more sticky hands!</p>
             </article>
             <article>
-                <img alt="header" src="../../assets/ic-save-money@2x.png">
+                <div class="img-border">
+                    <img alt="header" src="../../assets/price.svg">
+                </div>
                 <h1>Save time & money</h1>
                 <p>Gone are the hours and days of hastily and clumsily trimming each bud by hand for hours, and even
                     days. Now you can save all that time and money, by relaxing and letting our equipment do the job in
@@ -94,8 +102,18 @@
         height: 80px;
     }
 
-    img {
+    .img-border {
+        width: 25vh;
+        height: 25vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         transition: transform .2s;
+        border: 1px solid grey;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
     }
 
     img {
@@ -164,6 +182,15 @@
 
 
     @media all and (min-width: 558px) {
+        /*.img-border {*/
+        /*    width: 20vh;*/
+        /*    height: 20vh;*/
+
+        /*}*/
+
+        .img {
+            width: 20%;
+        }
         main {
             grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
         }
@@ -178,9 +205,8 @@
             max-width: 100%;
         }
         img {
-            width: 50%;
             max-width: 350px;
-            margin: 55px 20px 55px 20px;
+            /*margin: 55px 20px 55px 20px;*/
         }
     }
 
