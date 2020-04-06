@@ -117,8 +117,13 @@
     }
 
     img {
-        transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        transition: transform .4s;
     }
+
+    img:hover {
+        transform: scale(1.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
 
     /*.benefits {*/
     /*    max-width: 1100px;*/

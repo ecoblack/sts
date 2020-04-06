@@ -1,5 +1,7 @@
 <template>
     <div class="lower-header">
+
+
         <img id="lower-header-image" alt="header" src="../../assets/group-2@3x.png">
         <!--        <div class="header-text">-->
         <!--            <h1>Are you still trimming your weed by hand?</h1>-->
@@ -8,6 +10,13 @@
         <!--                <a><router-link to="/">Get professional trimming</router-link></a>-->
         <!--            </button>-->
         <!--        </div>-->
+        <div class="tagline">
+            <h1>
+            We will do all the work for you
+        </h1>
+            <p>Let us get rid of your messy, time consuming, and unsanitary hand trimming! Our new professional
+                equipment will trim everything you've got faster and cleaner!</p>
+        </div>
     </div>
 </template>
 
