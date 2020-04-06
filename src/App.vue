@@ -23,6 +23,8 @@
 
 
 <style lang="scss">
+    @import "./assets/css/style.css";
+
     @media all and (max-width: 500px) {
         .nav-right {
             display: none;
@@ -97,7 +99,7 @@
 
     #navigation {
         max-width: 100%;
-        font-family: Lato, sans-serif;
+        font-family: 'Lato-Regular', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         /*text-align: center;*/
