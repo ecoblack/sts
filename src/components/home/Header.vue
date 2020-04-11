@@ -22,6 +22,9 @@
 
 <style scoped lang="scss">
 
+    h4 {
+        font-size: 28px;
+    }
     .header {
         background-image: url(../../assets/group-13@2x.png);
         background-position: center center;

@@ -61,11 +61,20 @@
         background-color: #ffffff;
         text-align: center;
         margin: auto;
+
     }
 
     button:hover {
         background-color: #47c549;
         border: none;
+    }
+    a {
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
     }
     button > a > a {
         margin: -10px 20px -10px 20px;

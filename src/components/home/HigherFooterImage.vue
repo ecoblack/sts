@@ -15,11 +15,13 @@
             <div class="question" style="display: inline-block;width: 50%;">
 
             </div>
-            <div class="happy" style="display: inline-block;width: 50%;">
-                <h1>If you have any other questions, or need help with suggestions, or methods of growing,
+            <div class="happy" >
+                <div class="happy-container">
+                    <h1>If you have any other questions, or need help with suggestions, or methods of growing,
                     we gladly offer services where we can arrange to take care of everything from your setup to your
                     harvest day!</h1>
-                <h2>If You're happy, Then We're happy!</h2>
+                    <h2>If You're happy, Then We're happy!</h2>
+                </div>
             </div>
         </div>
     </div>
@@ -72,6 +74,7 @@
         line-height: normal;
         letter-spacing: normal
     }
+
     .tag {
         text-align: center;
         width: 100%;
@@ -82,6 +85,13 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
+        margin-bottom: 80px;
+    }
+    .happy-container {
+        display: block;
+        position: relative;
+        top: 40%;
+        transform: translateY(-50%);
     }
     #higher-footer {
         margin: auto;
@@ -114,20 +124,13 @@
     }
 
     .happy {
-        /*text-align: center;*/
-        /*!*width: 100%;*!*/
-        /*!*display: flex;*!*/
-        /*!*flex-direction: row;*!*/
-        /*!*flex-wrap: wrap;*!*/
+        display: inline-block;
+        width: 50%;
+        /*margin: 0 auto 120px auto;*/
+        /*height: 100%;*/
+        /*display: flex;*/
         /*justify-content: center;*/
         /*align-items: center;*/
-        /*margin: 0 auto;*/
-        /*max-width: 100%;*/
-        /*!*max-width: 1100px;*!*/
-        /*border-radius: 3px;*/
-        /*vertical-align: middle;*/
-        margin: 0 auto 120px auto;
-        width: 50%;
     }
 
     /*.seed-skiper {*/
