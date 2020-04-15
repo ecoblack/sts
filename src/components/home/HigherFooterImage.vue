@@ -15,11 +15,11 @@
             <div class="question" style="display: inline-block;width: 50%;">
 
             </div>
-            <div class="happy" >
+            <div class="happy">
                 <div class="happy-container">
                     <h1>If you have any other questions, or need help with suggestions, or methods of growing,
-                    we gladly offer services where we can arrange to take care of everything from your setup to your
-                    harvest day!</h1>
+                        we gladly offer services where we can arrange to take care of everything from your setup to your
+                        harvest day!</h1>
                     <h2>If You're happy, Then We're happy!</h2>
                 </div>
             </div>
@@ -55,6 +55,7 @@
         background-color: #ccc;
         border-radius: 3px;
         position: relative;
+        border-radius: 30px;
     }
 
     button {
@@ -87,12 +88,15 @@
         flex-direction: row;
         margin-bottom: 80px;
     }
+
     .happy-container {
         display: block;
         position: relative;
         top: 40%;
         transform: translateY(-50%);
+        margin: 20px;
     }
+
     #higher-footer {
         margin: auto;
         max-width: 1100px;
@@ -100,6 +104,7 @@
 
     .question {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/img-4@3x.png);
+        border-radius: 30px;
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -140,6 +145,11 @@
     /*    background-repeat: no-repeat;*/
     /*    text-align: center;*/
     /*}*/
+    @media all and (max-width: 1100px) {
+        .happy {
+            margin: 20px;
+        }
+    }
 
     @media all and (min-width: 769px) {
         /*#higher-footer {*/
@@ -169,7 +179,9 @@
         /*    border-style: solid;*/
         /*    border-color: blueviolet;*/
         /*}*/
-
+        .header {
+            margin-bottom: 100px;
+        }
         .footer-text {
             color: white;
             position: absolute;
@@ -192,7 +204,8 @@
         }
 
         h1 {
-            font-size: 36px;
+            font-size: 28px;
+            margin: 20px;
         }
         .tag {
             display: none;
