@@ -105,6 +105,8 @@
     .img-border {
         width: 25vh;
         height: 25vh;
+        max-width: 180px;
+        max-height: 180px;
         margin: 0 auto;
         display: flex;
         justify-content: center;
@@ -219,6 +221,11 @@
         article {
             max-width: 100%;
             width: 100%;
+        }
+
+        .img-border {
+            width: 30vh;
+            height: 30vh;
         }
     }
 </style>

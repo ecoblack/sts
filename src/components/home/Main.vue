@@ -59,7 +59,7 @@
     }
 
     article {
-        overflow: auto;
+        overflow: hidden;
         max-width: 540px;
         border-radius: 10px;
         padding: 20px;
